@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>2.2.1</Version>
+    <Authors>Hiroshi Ota</Authors>
+    <Company>Knowledge &amp; Experience</Company>
+    <PackageProjectUrl>https://github.com/kae-made/csharp-code-generation-framework</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/kae-made/csharp-code-generation-framework</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright (c) Knowledge &amp; Experience. All rights reserved.</Copyright>
+    <PackageIcon>kae-log-no-chart-128.png</PackageIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Kae.StateMachine" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="kae-log-no-chart-128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
